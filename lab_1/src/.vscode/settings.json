@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "switching_panel.h": "c",
+        "enigma.h": "c",
+        "consts.h": "c",
+        "stdbool.h": "c",
+        "menu.h": "c"
+    },
+    "makefile.configureOnOpen": true
+}
