@@ -1,0 +1,9 @@
+
+Terminals: {a, b, c, d}
+
+Nonterminals: {S, A}
+
+Rules: {S -> Aa | b,
+A -> Ac | Sd | e}
+
+Start symbol: S

@@ -1,0 +1,10 @@
+
+Terminals: {a, b}
+
+Nonterminals: {A, B, C}
+
+Rules: {A -> BC | a,
+B -> CA | Ab,
+C -> AB | CC | a}
+
+Start symbol: A

@@ -1,0 +1,9 @@
+
+Terminals: {i, t, <else>, a, b}
+
+Nonterminals: {S, E}
+
+Rules: {S -> iEtS | iEtS<else>S | a,
+E -> b}
+
+Start symbol: S

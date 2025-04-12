@@ -1,0 +1,10 @@
+
+Terminals: {+, *, id, (, )}
+
+Nonterminals: {E, T, F}
+
+Rules: {E -> E+T | T,
+T -> T*F | F,
+F -> (E) | id}
+
+Start symbol: E
