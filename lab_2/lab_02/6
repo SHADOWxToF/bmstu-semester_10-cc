@@ -9,3 +9,33 @@ F -> Ab | b,
 C -> AB | CC | a}
 
 Start symbol: A
+
+
+
+
+A -> abca | abcd | abd | af
+
+A -> abcA' | abd | af
+A' -> a | d
+
+A -> abA'' | af
+A' -> a | d
+A'' -> cA' | d
+
+A -> aA'''
+A' -> a | d
+A'' -> cA' | d
+A''' -> bA'' | f
+
+
+A -> aA'
+A' -> bca | bcd | bd | f
+
+A -> aA'
+A' -> bA'' | f
+A'' -> ca | cd | d
+
+A -> aA'
+A' -> bA'' | f
+A'' -> cA''' | d
+A''' -> a | d
